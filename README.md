@@ -66,7 +66,20 @@ There are already marketplace sites, but here’s why our platform stands out:
 
 ## 🚀 Quick Start  
 
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/your-username/ai-marketplace.git
-   cd ai-marketplace
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/ai-marketplace.git
+cd ai-marketplace
+
+# 2. Install dependencies
+npm install
+
+# 3. Create a .env file in the project root and add:
+VITE_OPENAI_KEY=your_openai_api_key
+VITE_FIREBASE_KEY=your_firebase_key
+
+# 4. Run the dev server
+npm run dev
+
+# 5. Open in browser 🎉
+http://localhost:5173
